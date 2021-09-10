@@ -1,0 +1,75 @@
+html{
+    display: block;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.start {
+    background-image: url(https://wallpaperaccess.com/full/153208.jpg);
+    min-height: 100%;
+}
+.start1 {
+    background-image: url(http://www.designblendz.com/hubfs/Blog_Images/Sustainable-Design.jpg);
+    min-height: 100%;
+}
+.start2 {
+    background-image: url(https://images.homify.com/image/upload/a_0,c_fill,f_auto,h_900,q_auto,w_1920/v1568966857/p/photo/image/3204584/vivek_01.jpg);
+    min-height: 100%;
+}
+.start, .start1, .start2 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.heading {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.heading .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+.pheading .border.trans {
+    background-color: transparent;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
